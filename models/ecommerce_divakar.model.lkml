@@ -9,6 +9,7 @@ datagroup: ecommerce_divakar_default_datagroup {
   max_cache_age: "1 hour"
 }
 
+
 datagroup: user_pdt_datagroup {
   sql_trigger: select count(*) from orders ;;
 }
